@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin-top: 12px;
+}
+
+.clear{
+    clear: both;
+}
+
+main{
+    width: 65%;
+    margin: auto;
+    /* background-color: ; */
+    box-sizing: border-box;
+    position: solid;
+}
+
+#Article-Title{
+  padding: 1vw;
+  padding-bottom: 1vw;
+  text-align:center;
+  color: #B5B5B5;
+}
+
+#article-headline{
+  color: #B5B5B5;
+}
+
+figure h4{
+  padding-bottom: 1vw;
+  text-align:center;
+}
+
+#top-bar{
+  overflow: hidden;
+  background-color: #616161;
+  /* padding: 1vw 1vw; */
+}
+
+#top-bar a{
+  float: left;
+  padding: 2vw 1vw 2vw 1vw;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+#top-bar a:hover{
+  color: blue;
+}
+
+#top-bar img{
+  float: right;
+  width: 6%;
+  height: 6%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#article-headline .img-ottoman{
+  text-align: center;
+}
+
+#article-headline .img-ottoman img{
+  margin: auto;
+  display: block;
+  color: #B5B5B5;
+}
+
+#article-headline .img-ottoman a:hover{
+  color: blue;
+}
+
+#article-info{
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+#headline{
+  margin-top: 1vw;
+  text-align: center;
+}
+
+#osman1-bio{
+  margin-left: 2vw;
+}
+
+#quotes{
+  margin-top: 1vw;
+}
+
+#quotes hr{
+  max-width: 50%;
+  margin: auto;
+}
+
+#quotes p{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#footer{
+  width: 70%;
+  margin: 0 auto;
+}
+
+#Reference-link:hover{
+  color:blue;
+}
+
+/* ======================================
+=========================================
+*****************************************
+------------Responsive Media-------------
+*****************************************
+=========================================
+========================================= */
+
+@media screen and (min-width: 600px){
+  #article-info ul li{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+    line-height: 24px;
+  }
+
+  #headline{
+    margin-bottom: 1vw;
+    font-size: 20px;
+  }
+
+  #desc-list{
+    margin-bottom: 1vw;
+  }
+}
+
+@media screen and(max-width: 600px){
+  #Article-Title{
+    font-size: 8vw;
+  }
+
+  #img-ottoman #img-ottoman2{
+    max-width: 50px;
+  }
+
+  #img-ottoman-caption{
+    font-size: 3vw;
+  }
+
+  #article-info ul{
+    margin-bottom: 10px;
+  }
+
+  #article-info ul li{
+    margin-left: 15px;
+  }
+}
